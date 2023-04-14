@@ -12,13 +12,47 @@
     />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
-    <div id="calculator"></div>
 
+
+  <body>
+      <div class="container">
+        <div class="row">
+          <div class="col" id="result">0</div>
+        </div>
+
+        <div class="row">
+          <div class="col"><button class="btn" id="clear">C</button></div>
+          <div class="col"><button class="btn">&larr;</button></div>
+          <div class="col"><button class="btn">&divide;</button></div>
+        </div>
+        <div class="row">
+          <div class="col"><button class="btn num7">7</button></div>
+          <div class="col"><button class="btn num8">8</button></div>
+          <div class="col"><button class="btn num9">9</button></div>
+          <div class="col"><button class="btn times">&times;</button></div>
+        </div>
+        <div class="row">
+          <div class="col"><button class="btn">4</button></div>
+          <div class="col"><button class="btn">5</button></div>
+          <div class="col"><button class="btn">6</button></div>
+          <div class="col"><button class="btn">&minus;</button></div>
+        </div>
+        <div class="row">
+          <div class="col"><button class="btn">1</button></div>
+          <div class="col"><button class="btn">2</button></div>
+          <div class="col"><button class="btn">3</button></div>
+          <div class="col"><button class="btn">&plus;</button></div>
+        </div>
+        <div class="row">
+          <div class="col"><button class="btn" id="zero">0</button></div>
+          <div class="col"><button class="btn">&equals;</button></div>
+        </div>
+      </div>
+
+</body>
     <!--
-  Create a wrapper with a width of 400px to set up the calculator.
-Determine how many rows and columns we need.
-Identify elements that occupy more than one column.
+
+
 Determine the HTML tags required to code rows and cells.
 Code a single row of 4 elements to start with and see if you can get that working.
 Now add the other rows of 4 elements.
