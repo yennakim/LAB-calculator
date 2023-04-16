@@ -1,24 +1,50 @@
+.functionBtn {
+  color: white;
+}
+
 .container {
-  width: 400px;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-#clear {
-  width: 200px;
-}
-
-#zero {
-  width: 300px;
+  flex-flow: column wrap;
+  align-content: center;
+  width: 400px;
+  padding: 30px;
 }
 
 #result {
   background-color: #000000;
   color: #ffffff;
+  text-align: right;
+  font-family: monospace;
+}
+
+.row {
+  background-color: #d8d9db;
+}
+
+.col:last-child {
+  background-color: #df974c;
+}
+.functionBtn:hover {
+  background-color: #dfb07e;
+}
+
+.functionBtn:active {
+  background-color: #dd8d37;
+}
+
+.col {
+  border: 1px solid black;
+}
+
+.btn:hover {
+  color: #ebebeb;
+}
+
+.btn:active {
+  color: #bbbcbe;
 }
 
 .btn {
-  width: 50px;
+  width: 100%;
+  margin: 0;
 }
